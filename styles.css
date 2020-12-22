@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.board{
+    /* margin-top: 70px; */
+    margin-left: 60px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 90%;
+    left: 50% ;
+        border:3px solid black;
+    transition: translate(50%,50%) ;
+    align-items: center;
+    /* transform: translateX(50%) */
+}
+
+.bluedice{
+    width: 35px;
+    height: 35px;
+    background-color: blue;
+    border: 3px solid black;
+    top: 280px;
+    margin-left: 15px;
+    position: relative;
+    /* transition: 0.5s; */
+}
+
+.greendice{
+    width: 35px;
+    height: 35px;
+    border: 3px solid black;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    left : 240px;
+    position: relative;
+}
+
+.reddice{
+    width: 35px;
+    height: 35px;
+    border: 3px solid black;
+    /* margin-top: 15px; */
+    /* margin-bottom: 10px; */
+    left : 470px;
+    top: 280px;
+    margin-left: 15px;
+    position: relative;
+}
+.yellowdice{
+    width: 35px;
+    height: 35px;
+    border: 3px solid black;
+    /* margin-top: 5px; */
+    /* margin-bottom: 10px; */
+    left : 150px;
+    top: 560px;
+    /* margin-left: 15pxs; */
+    position: relative;
+}
+
+/* .bluedice:focus{
+    width:55px;
+    height: 55px;
+} */
+
+.board div{
+    width: 100px;
+    height: 100px;
+}
+
+.block{
+    background-color: beige;
+    border: 3px solid black;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+.home{
+    transition: 0.8s;
+}
+
+.blue-home{
+    background-color: blue;
+}
+
+.yellow-home{
+    background-color: yellow;
+}
+
+.green-home{
+    background-color: green;
+}
+
+.red-home{
+    background-color: red;
+}
+
+.home-home{
+    background-color: white;
+}
+
+.token{
+    background-color: black;
+    /* border-radius: 4px; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:5px solid black;
+    display:inline-block;
+    position: relative;
+    flex-wrap: wrap;
+    transform:translate(50%,50%) ;
+    transition: 0.8s;
+    /* top: auto; */
+    /* left: 50%; */
+    outline: none;
+}
+
+.token:focus{
+    width:40px;
+    height: 40px;
+}
+
+button{
+    outline: none;
+}
+
+.bluedice:focus .blue-home{
+    border: 4px solid #0000ff96;
+    border-radius: 50%;
+}
+
+
+.scoreBoard{
+    width: 700px;
+    height: 700px;
+    background-color: hotpink;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+/* 
+.dice{
+    width: 40px;
+    height: 40px;
+    /* margin: 20px; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+ */
+
+.bluedice{
+    background-color: blue;
+}
+
+.reddice{
+    background-color: red;
+}
+
+.greendice{
+    background: green;
+}
+.yellowdice{
+    background: yellow;
+}
+
+.active .block{
+    background:blanchedalmond;
+    transition: 0.8s;
+}
+
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
